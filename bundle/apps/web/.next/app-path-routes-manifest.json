@@ -1,0 +1,15 @@
+{
+  "/(app)/aujourdhui/page": "/aujourdhui",
+  "/(app)/track-record/page": "/track-record",
+  "/(auth)/invite/[token]/page": "/invite/[token]",
+  "/(auth)/login/page": "/login",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/[...all]/route": "/api/auth/[...all]",
+  "/api/invite/accept/route": "/api/invite/accept",
+  "/api/v1/fixtures/[id]/route": "/api/v1/fixtures/[id]",
+  "/api/v1/fixtures/route": "/api/v1/fixtures",
+  "/api/v1/health/route": "/api/v1/health",
+  "/api/v1/track-record/route": "/api/v1/track-record",
+  "/page": "/"
+}
