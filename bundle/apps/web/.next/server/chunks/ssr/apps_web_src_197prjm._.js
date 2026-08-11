@@ -76,7 +76,7 @@ module.exports=[91723,a=>a.a(async(b,c)=>{try{var d=a.i(59597),e=a.i(56963),f=a.
   `)).rows.map(b=>{let c=Number(b.home_club_id)===a,d=Number(c?b.hg:b.ag),e=Number(c?b.ag:b.hg);return{kickoffUtc:new Date(b.kickoff_utc),opponent:c?b.away:b.home,score:`${b.hg}–${b.ag}`,result:d>e?"V":d===e?"N":"D",home:c}})}async function j(a){return(await f.db.execute(d.sql`
     SELECT rating::float8 AS rating, valid_from
     FROM elo_ratings
-    WHERE club_id = ${a}
+    WHERE club_id = ${a} AND method_version = 'elo-ha-v1'
     ORDER BY valid_from DESC
     LIMIT 12
   `)).rows.map(a=>({rating:Number(a.rating),from:new Date(a.valid_from)})).reverse()}async function k(){let a=(0,e.currentIsoWeek)();return(await f.db.execute(d.sql`
