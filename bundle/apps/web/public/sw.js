@@ -5,7 +5,7 @@
 //   versionnés par leur chemin, un contenu périmé est impossible.
 // Le nom du cache est versionné : le déploiement suivant nettoie l'ancien.
 
-const CACHE = "foox-v2026-08-12-1";
+const CACHE = "foox-v2026-08-12-2";
 const PRECACHE = [
   "/offline",
   "/manifest.webmanifest",
