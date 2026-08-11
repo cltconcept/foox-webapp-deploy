@@ -170,6 +170,12 @@
       "namedRegex": "^/offline(?:/)?$"
     },
     {
+      "page": "/pronos",
+      "regex": "^/pronos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pronos(?:/)?$"
+    },
+    {
       "page": "/track-record",
       "regex": "^/track\\-record(?:/)?$",
       "routeKeys": {},
