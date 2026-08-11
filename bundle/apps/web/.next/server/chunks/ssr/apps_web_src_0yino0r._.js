@@ -120,4 +120,4 @@ module.exports=[20614,a=>{"use strict";a.s(["Explainer",()=>b]);let b=(0,a.i(325
       AND to_char(date_trunc('week', m.kickoff_utc), 'IYYY-IW') = ${b}
   `)).rows.map(a=>({p:Number(a.p_at_pick),home:a.home,away:a.away,juge:!!a.juge})),g=c.filter(a=>!a.juge),h=g.reduce((a,b)=>null===a||b.p<a.p?b:a,null);return{total:c.length,enCours:g.length,oses:g.filter(a=>a.p<.45).length,prudents:g.filter(a=>a.p>=.45).length,meilleurCoup:h?{home:h.home,away:h.away,points:Math.round(100*(1-h.p))}:null}}[e,f]=g.then?(await g)():g,a.s(["eloTrend",0,j,"headToHead",0,h,"myWeek",0,l,"recentForm",0,i,"weeklyRace",0,k]),c()}catch(a){c(a)}},!1)];
 
-//# sourceMappingURL=apps_web_src_025445p._.js.map
+//# sourceMappingURL=apps_web_src_0yino0r._.js.map
