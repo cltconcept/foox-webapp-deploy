@@ -1,7 +1,10 @@
 {
   "/(app)/aujourdhui/page": "/aujourdhui",
+  "/(app)/formation/[slug]/page": "/formation/[slug]",
+  "/(app)/formation/page": "/formation",
   "/(app)/ligues/page": "/ligues",
   "/(app)/track-record/page": "/track-record",
+  "/(app)/vestiaire/page": "/vestiaire",
   "/(auth)/invite/[token]/page": "/invite/[token]",
   "/(auth)/login/page": "/login",
   "/_global-error/page": "/_global-error",
@@ -10,10 +13,12 @@
   "/api/invite/accept/route": "/api/invite/accept",
   "/api/v1/fixtures/[id]/route": "/api/v1/fixtures/[id]",
   "/api/v1/fixtures/route": "/api/v1/fixtures",
+  "/api/v1/formation/complete/route": "/api/v1/formation/complete",
   "/api/v1/health/route": "/api/v1/health",
   "/api/v1/leagues/join/route": "/api/v1/leagues/join",
   "/api/v1/leagues/route": "/api/v1/leagues",
   "/api/v1/picks/route": "/api/v1/picks",
+  "/api/v1/theme/route": "/api/v1/theme",
   "/api/v1/track-record/route": "/api/v1/track-record",
   "/page": "/"
 }

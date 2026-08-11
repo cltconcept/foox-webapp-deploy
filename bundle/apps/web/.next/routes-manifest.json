@@ -50,6 +50,14 @@
       "namedRegex": "^/api/v1/fixtures/(?<nxtPid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/formation/[slug]",
+      "regex": "^/formation/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/formation/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/invite/[token]",
       "regex": "^/invite/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -90,6 +98,12 @@
       "namedRegex": "^/api/v1/fixtures(?:/)?$"
     },
     {
+      "page": "/api/v1/formation/complete",
+      "regex": "^/api/v1/formation/complete(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/formation/complete(?:/)?$"
+    },
+    {
       "page": "/api/v1/health",
       "regex": "^/api/v1/health(?:/)?$",
       "routeKeys": {},
@@ -114,6 +128,12 @@
       "namedRegex": "^/api/v1/picks(?:/)?$"
     },
     {
+      "page": "/api/v1/theme",
+      "regex": "^/api/v1/theme(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/theme(?:/)?$"
+    },
+    {
       "page": "/api/v1/track-record",
       "regex": "^/api/v1/track\\-record(?:/)?$",
       "routeKeys": {},
@@ -124,6 +144,12 @@
       "regex": "^/aujourdhui(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/aujourdhui(?:/)?$"
+    },
+    {
+      "page": "/formation",
+      "regex": "^/formation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/formation(?:/)?$"
     },
     {
       "page": "/ligues",
@@ -142,6 +168,12 @@
       "regex": "^/track\\-record(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/track\\-record(?:/)?$"
+    },
+    {
+      "page": "/vestiaire",
+      "regex": "^/vestiaire(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/vestiaire(?:/)?$"
     }
   ],
   "dataRoutes": [],
