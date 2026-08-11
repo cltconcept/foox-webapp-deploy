@@ -5,6 +5,7 @@
   "/(app)/formation/[slug]/page": "app/(app)/formation/[slug]/page.js",
   "/(app)/formation/page": "app/(app)/formation/page.js",
   "/(app)/ligues/page": "app/(app)/ligues/page.js",
+  "/(app)/ligues/rejoindre/[code]/page": "app/(app)/ligues/rejoindre/[code]/page.js",
   "/(app)/pronos/page": "app/(app)/pronos/page.js",
   "/(app)/track-record/page": "app/(app)/track-record/page.js",
   "/(app)/vestiaire/page": "app/(app)/vestiaire/page.js",

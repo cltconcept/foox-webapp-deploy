@@ -72,6 +72,14 @@
         "nxtPtoken": "nxtPtoken"
       },
       "namedRegex": "^/invite/(?<nxtPtoken>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/ligues/rejoindre/[code]",
+      "regex": "^/ligues/rejoindre/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcode": "nxtPcode"
+      },
+      "namedRegex": "^/ligues/rejoindre/(?<nxtPcode>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [

@@ -5,6 +5,7 @@
   "/(app)/formation/[slug]/page": "/formation/[slug]",
   "/(app)/formation/page": "/formation",
   "/(app)/ligues/page": "/ligues",
+  "/(app)/ligues/rejoindre/[code]/page": "/ligues/rejoindre/[code]",
   "/(app)/pronos/page": "/pronos",
   "/(app)/track-record/page": "/track-record",
   "/(app)/vestiaire/page": "/vestiaire",
