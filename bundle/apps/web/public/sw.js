@@ -5,7 +5,7 @@
 //   versionnés par leur chemin, un contenu périmé est impossible.
 // Le nom du cache est versionné : le déploiement suivant nettoie l'ancien.
 
-const CACHE = "foox-v2026-08-11-1";
+const CACHE = "foox-v2026-08-11-2";
 const PRECACHE = [
   "/offline",
   "/manifest.webmanifest",
@@ -45,7 +45,10 @@ self.addEventListener("fetch", (evenement) => {
     return;
   }
 
-  // Statiques versionnés : cache d'abord, réseau en complément.
+  // Statiques : cache d'abord, réseau en complément.
+  // ⚠️ `/assets/` n'est PAS versionné par son chemin : y remplacer un fichier
+  // à nom égal (fait le 2026-08-11 sur les avatars) laisse l'ancien servi tant
+  // que `CACHE` ne change pas. Bumper `CACHE` à chaque remplacement d'asset.
   const statique =
     url.pathname.startsWith("/_next/static/") ||
     url.pathname.startsWith("/assets/") ||
