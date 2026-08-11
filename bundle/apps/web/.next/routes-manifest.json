@@ -86,6 +86,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/analyses",
+      "regex": "^/analyses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/analyses(?:/)?$"
+    },
+    {
       "page": "/api/invite/accept",
       "regex": "^/api/invite/accept(?:/)?$",
       "routeKeys": {},
