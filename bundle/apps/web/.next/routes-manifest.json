@@ -164,6 +164,12 @@
       "namedRegex": "^/login(?:/)?$"
     },
     {
+      "page": "/offline",
+      "regex": "^/offline(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/offline(?:/)?$"
+    },
+    {
       "page": "/track-record",
       "regex": "^/track\\-record(?:/)?$",
       "routeKeys": {},
