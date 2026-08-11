@@ -114,6 +114,12 @@
       "namedRegex": "^/api/invite/accept(?:/)?$"
     },
     {
+      "page": "/api/v1/avatar",
+      "regex": "^/api/v1/avatar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/avatar(?:/)?$"
+    },
+    {
       "page": "/api/v1/fixtures",
       "regex": "^/api/v1/fixtures(?:/)?$",
       "routeKeys": {},
