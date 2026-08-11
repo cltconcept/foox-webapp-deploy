@@ -34,6 +34,14 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/analyses/[id]",
+      "regex": "^/analyses/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/analyses/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/api/auth/[...all]",
       "regex": "^/api/auth/(.+?)(?:/)?$",
       "routeKeys": {

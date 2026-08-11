@@ -1,4 +1,5 @@
 {
+  "/(app)/analyses/[id]/page": "/analyses/[id]",
   "/(app)/analyses/page": "/analyses",
   "/(app)/aujourdhui/page": "/aujourdhui",
   "/(app)/formation/[slug]/page": "/formation/[slug]",
