@@ -96,6 +96,24 @@
       "namedRegex": "^/api/v1/health(?:/)?$"
     },
     {
+      "page": "/api/v1/leagues",
+      "regex": "^/api/v1/leagues(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/leagues(?:/)?$"
+    },
+    {
+      "page": "/api/v1/leagues/join",
+      "regex": "^/api/v1/leagues/join(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/leagues/join(?:/)?$"
+    },
+    {
+      "page": "/api/v1/picks",
+      "regex": "^/api/v1/picks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/picks(?:/)?$"
+    },
+    {
       "page": "/api/v1/track-record",
       "regex": "^/api/v1/track\\-record(?:/)?$",
       "routeKeys": {},
@@ -106,6 +124,12 @@
       "regex": "^/aujourdhui(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/aujourdhui(?:/)?$"
+    },
+    {
+      "page": "/ligues",
+      "regex": "^/ligues(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ligues(?:/)?$"
     },
     {
       "page": "/login",

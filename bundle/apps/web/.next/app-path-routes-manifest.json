@@ -1,5 +1,6 @@
 {
   "/(app)/aujourdhui/page": "/aujourdhui",
+  "/(app)/ligues/page": "/ligues",
   "/(app)/track-record/page": "/track-record",
   "/(auth)/invite/[token]/page": "/invite/[token]",
   "/(auth)/login/page": "/login",
@@ -10,6 +11,9 @@
   "/api/v1/fixtures/[id]/route": "/api/v1/fixtures/[id]",
   "/api/v1/fixtures/route": "/api/v1/fixtures",
   "/api/v1/health/route": "/api/v1/health",
+  "/api/v1/leagues/join/route": "/api/v1/leagues/join",
+  "/api/v1/leagues/route": "/api/v1/leagues",
+  "/api/v1/picks/route": "/api/v1/picks",
   "/api/v1/track-record/route": "/api/v1/track-record",
   "/page": "/"
 }

@@ -1,5 +1,6 @@
 {
   "/(app)/aujourdhui/page": "app/(app)/aujourdhui/page.js",
+  "/(app)/ligues/page": "app/(app)/ligues/page.js",
   "/(app)/track-record/page": "app/(app)/track-record/page.js",
   "/(auth)/invite/[token]/page": "app/(auth)/invite/[token]/page.js",
   "/(auth)/login/page": "app/(auth)/login/page.js",
@@ -10,6 +11,9 @@
   "/api/v1/fixtures/[id]/route": "app/api/v1/fixtures/[id]/route.js",
   "/api/v1/fixtures/route": "app/api/v1/fixtures/route.js",
   "/api/v1/health/route": "app/api/v1/health/route.js",
+  "/api/v1/leagues/join/route": "app/api/v1/leagues/join/route.js",
+  "/api/v1/leagues/route": "app/api/v1/leagues/route.js",
+  "/api/v1/picks/route": "app/api/v1/picks/route.js",
   "/api/v1/track-record/route": "app/api/v1/track-record/route.js",
   "/page": "app/page.js"
 }
