@@ -16,6 +16,7 @@
   "/api/auth/[...all]/route": "/api/auth/[...all]",
   "/api/invite/accept/route": "/api/invite/accept",
   "/api/v1/avatar/route": "/api/v1/avatar",
+  "/api/v1/combos/[id]/route": "/api/v1/combos/[id]",
   "/api/v1/combos/route": "/api/v1/combos",
   "/api/v1/fixtures/[id]/route": "/api/v1/fixtures/[id]",
   "/api/v1/fixtures/route": "/api/v1/fixtures",
