@@ -120,6 +120,12 @@
       "namedRegex": "^/api/v1/avatar(?:/)?$"
     },
     {
+      "page": "/api/v1/combos",
+      "regex": "^/api/v1/combos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/combos(?:/)?$"
+    },
+    {
       "page": "/api/v1/fixtures",
       "regex": "^/api/v1/fixtures(?:/)?$",
       "routeKeys": {},
