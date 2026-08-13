@@ -18,6 +18,7 @@
   "/api/v1/avatar/route": "app/api/v1/avatar/route.js",
   "/api/v1/combos/[id]/route": "app/api/v1/combos/[id]/route.js",
   "/api/v1/combos/route": "app/api/v1/combos/route.js",
+  "/api/v1/events/route": "app/api/v1/events/route.js",
   "/api/v1/fixtures/[id]/route": "app/api/v1/fixtures/[id]/route.js",
   "/api/v1/fixtures/route": "app/api/v1/fixtures/route.js",
   "/api/v1/formation/complete/route": "app/api/v1/formation/complete/route.js",
