@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/auth/[...all]/route.js")
-R.c("server/chunks/[root-of-the-server]__0h2dm7f._.js")
+R.c("server/chunks/[root-of-the-server]__0unytvx._.js")
 R.c("server/chunks/1vu0_kysely_dist_0_qkll9._.js")
 R.c("server/chunks/_1l2jhk4._.js")
 R.c("server/chunks/1lr9_@better-auth_kysely-adapter_dist_index_mjs_1460nsi._.js")

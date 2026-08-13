@@ -1,5 +1,17 @@
 {
-  "node": {},
+  "node": {
+    "405f47088144d68e1d5ef1bae48390c537b0001a2e": {
+      "workers": {
+        "app/(app)/analyses/page": {
+          "moduleId": 59161,
+          "async": true,
+          "codeHash": null
+        }
+      },
+      "filename": "apps/web/src/app/(app)/analyses/actions.ts",
+      "exportedName": "basculerFavori"
+    }
+  },
   "edge": {},
   "encryptionKey": "YC/DVZ1mgkBImyY3RulwkIZMWfVbiYNk8dz9QIxrHhY="
 }
