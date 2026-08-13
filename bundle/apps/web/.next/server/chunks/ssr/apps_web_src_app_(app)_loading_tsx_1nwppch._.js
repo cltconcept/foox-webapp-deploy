@@ -1,0 +1,3 @@
+module.exports=[67972,a=>{"use strict";var b=a.i(59597);a.s(["default",0,function(){return(0,b.jsxs)("div",{className:"max-w-md mx-auto space-y-4 pt-1","aria-busy":"true","aria-label":"Chargement",children:[(0,b.jsx)("div",{className:"squelette h-40"}),(0,b.jsx)("div",{className:"squelette h-24"}),(0,b.jsxs)("div",{className:"flex gap-3",children:[(0,b.jsx)("div",{className:"squelette h-28 flex-1"}),(0,b.jsx)("div",{className:"squelette h-28 flex-1"})]}),(0,b.jsx)("div",{className:"squelette h-12"})]})}])},84225,function(a){a.n(a.i(67972))}];
+
+//# sourceMappingURL=apps_web_src_app_%28app%29_loading_tsx_1nwppch._.js.map

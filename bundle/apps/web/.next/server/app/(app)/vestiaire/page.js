@@ -1,5 +1,5 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(app)/vestiaire/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0kha9kt._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1j8m34f._.js")
 R.c("server/chunks/ssr/1jh5_next_dist_1f7duwt._.js")
 R.c("server/chunks/ssr/apps_web_src_05izkq-._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__028se2v._.js")
@@ -19,6 +19,7 @@ R.c("server/chunks/ssr/_0jsten5._.js")
 R.c("server/chunks/ssr/0-7p_@better-auth_core_dist_0qv5-9l._.js")
 R.c("server/chunks/ssr/_1p2hc16._.js")
 R.c("server/chunks/ssr/1lr9_@better-auth_kysely-adapter_dist_index_mjs_103sdum._.js")
+R.c("server/chunks/ssr/apps_web_src_app_(app)_loading_tsx_1nwppch._.js")
 R.c("server/chunks/ssr/apps_web__next-internal_server_app_(app)_vestiaire_page_actions_164u4dw.js")
-R.m(18798)
-module.exports=R.m(18798).exports
+R.m(65666)
+module.exports=R.m(65666).exports

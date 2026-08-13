@@ -1,5 +1,5 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(app)/track-record/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__1zd7cw5._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1emasdq._.js")
 R.c("server/chunks/ssr/1jh5_next_dist_1f7duwt._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__028se2v._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__109rfti._.js")
@@ -18,6 +18,7 @@ R.c("server/chunks/ssr/_0jsten5._.js")
 R.c("server/chunks/ssr/0-7p_@better-auth_core_dist_0qv5-9l._.js")
 R.c("server/chunks/ssr/_1p2hc16._.js")
 R.c("server/chunks/ssr/1lr9_@better-auth_kysely-adapter_dist_index_mjs_103sdum._.js")
+R.c("server/chunks/ssr/apps_web_src_app_(app)_loading_tsx_1nwppch._.js")
 R.c("server/chunks/ssr/apps_web__next-internal_server_app_(app)_track-record_page_actions_003w5s0.js")
-R.m(52624)
-module.exports=R.m(52624).exports
+R.m(15609)
+module.exports=R.m(15609).exports

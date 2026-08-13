@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(app)/aujourdhui/page.js")
-R.c("server/chunks/ssr/apps_web_src_1ptuomn._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0nb7-6s._.js")
+R.c("server/chunks/ssr/apps_web_src_1x0u_dp._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1k_uffj._.js")
 R.c("server/chunks/ssr/apps_web_src_0fn-84a._.js")
 R.c("server/chunks/ssr/1jh5_next_dist_1f7duwt._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__028se2v._.js")
@@ -20,6 +20,7 @@ R.c("server/chunks/ssr/_0jsten5._.js")
 R.c("server/chunks/ssr/0-7p_@better-auth_core_dist_0qv5-9l._.js")
 R.c("server/chunks/ssr/_1p2hc16._.js")
 R.c("server/chunks/ssr/1lr9_@better-auth_kysely-adapter_dist_index_mjs_103sdum._.js")
+R.c("server/chunks/ssr/apps_web_src_app_(app)_loading_tsx_1nwppch._.js")
 R.c("server/chunks/ssr/apps_web__next-internal_server_app_(app)_aujourdhui_page_actions_1zzbyc2.js")
-R.m(59023)
-module.exports=R.m(59023).exports
+R.m(21439)
+module.exports=R.m(21439).exports
