@@ -66,14 +66,6 @@
       "namedRegex": "^/api/v1/fixtures/(?<nxtPid>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/formation/[slug]",
-      "regex": "^/formation/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPslug": "nxtPslug"
-      },
-      "namedRegex": "^/formation/(?<nxtPslug>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/invite/[token]",
       "regex": "^/invite/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -146,12 +138,6 @@
       "namedRegex": "^/api/v1/fixtures(?:/)?$"
     },
     {
-      "page": "/api/v1/formation/complete",
-      "regex": "^/api/v1/formation/complete(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/v1/formation/complete(?:/)?$"
-    },
-    {
       "page": "/api/v1/health",
       "regex": "^/api/v1/health(?:/)?$",
       "routeKeys": {},
@@ -192,12 +178,6 @@
       "regex": "^/aujourdhui(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/aujourdhui(?:/)?$"
-    },
-    {
-      "page": "/formation",
-      "regex": "^/formation(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/formation(?:/)?$"
     },
     {
       "page": "/ligues",
