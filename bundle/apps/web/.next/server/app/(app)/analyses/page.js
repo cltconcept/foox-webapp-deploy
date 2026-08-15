@@ -20,7 +20,7 @@ R.c("server/chunks/ssr/0-7p_@better-auth_core_dist_0qv5-9l._.js")
 R.c("server/chunks/ssr/_1p2hc16._.js")
 R.c("server/chunks/ssr/1lr9_@better-auth_kysely-adapter_dist_index_mjs_103sdum._.js")
 R.c("server/chunks/ssr/apps_web_src_app_(app)_loading_tsx_1nwppch._.js")
-R.c("server/chunks/ssr/apps_web_1-kcubt._.js")
+R.c("server/chunks/ssr/apps_web_0e75smd._.js")
 R.c("server/chunks/ssr/_0v7mnfh._.js")
 R.m(97821)
 module.exports=R.m(97821).exports

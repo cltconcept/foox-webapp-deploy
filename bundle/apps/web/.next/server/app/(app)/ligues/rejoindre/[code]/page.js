@@ -1,6 +1,7 @@
 var R=require("../../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(app)/ligues/rejoindre/[code]/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__1uy0ws0._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__063mdoh._.js")
 R.c("server/chunks/ssr/1jh5_next_dist_1f7duwt._.js")
+R.c("server/chunks/ssr/apps_web_src_1johvki._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__028se2v._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__109rfti._.js")
 R.c("server/chunks/ssr/1jh5_next_dist_compiled_@opentelemetry_api_index_1eijnfg.js")
