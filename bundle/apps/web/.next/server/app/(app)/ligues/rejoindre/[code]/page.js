@@ -11,7 +11,7 @@ R.c("server/chunks/ssr/1jh5_next_dist_client_components_builtin_forbidden_1o502r
 R.c("server/chunks/ssr/1jh5_next_dist_client_components_builtin_unauthorized_1aqmu3q.js")
 R.c("server/chunks/ssr/1jh5_next_dist_client_components_builtin_global-error_2194ct2.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0ua0nz4._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0xer82h._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0c0b6nc._.js")
 R.c("server/chunks/ssr/1lr9_@better-auth_kysely-adapter_dist_index_mjs_103sdum._.js")
 R.c("server/chunks/ssr/1vu0_kysely_dist_1527mzp._.js")
 R.c("server/chunks/ssr/apps_web_src_1fgkapt._.js")

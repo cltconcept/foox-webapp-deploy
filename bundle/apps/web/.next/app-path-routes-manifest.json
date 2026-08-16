@@ -12,6 +12,7 @@
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/apercu-bandeau/page": "/apercu-bandeau",
+  "/apercu-dashboard/page": "/apercu-dashboard",
   "/api/auth/[...all]/route": "/api/auth/[...all]",
   "/api/invite/accept/route": "/api/invite/accept",
   "/api/v1/avatar/route": "/api/v1/avatar",

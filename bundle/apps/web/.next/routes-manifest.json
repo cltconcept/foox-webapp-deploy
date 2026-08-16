@@ -114,6 +114,12 @@
       "namedRegex": "^/apercu\\-bandeau(?:/)?$"
     },
     {
+      "page": "/apercu-dashboard",
+      "regex": "^/apercu\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apercu\\-dashboard(?:/)?$"
+    },
+    {
       "page": "/api/invite/accept",
       "regex": "^/api/invite/accept(?:/)?$",
       "routeKeys": {},

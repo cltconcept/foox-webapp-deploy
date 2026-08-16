@@ -188,20 +188,6 @@ module.exports=[21400,a=>{"use strict";a.s(["EXACT_BONUS",0,100,"GOALS_BONUS",0,
     WHERE s.user_id IS NOT NULL OR c.user_id IS NOT NULL
     ORDER BY points DESC, pending DESC, u.name
     LIMIT 30
-  `)).rows.map((a,b)=>({rank:b+1,userId:a.user_id,name:a.name,avatar:a.avatar,points:Number(a.points),pending:Number(a.pending)}))}async function l(a){let b=(0,e.currentIsoWeek)(),c=(await f.db.execute(d.sql`
-    SELECT p.p_at_pick, dom.canonical_name AS home, ext.canonical_name AS away,
-           (r.payload IS NOT NULL) AS juge
-    FROM picks p
-    JOIN matches m ON m.id = p.match_id
-    JOIN clubs dom ON dom.id = m.home_club_id
-    JOIN clubs ext ON ext.id = m.away_club_id
-    LEFT JOIN LATERAL (
-      SELECT f.payload FROM match_facts f
-      WHERE f.match_id = m.id AND f.fact_type = 'result' AND m.status = 'played'
-      ORDER BY f.id DESC LIMIT 1
-    ) r ON TRUE
-    WHERE p.user_id = ${a}
-      AND to_char(date_trunc('week', m.kickoff_utc), 'IYYY-IW') = ${b}
-  `)).rows.map(a=>({p:Number(a.p_at_pick),home:a.home,away:a.away,juge:!!a.juge})),g=c.filter(a=>!a.juge),h=g.reduce((a,b)=>null===a||b.p<a.p?b:a,null);return{total:c.length,enCours:g.length,oses:g.filter(a=>a.p<.45).length,prudents:g.filter(a=>a.p>=.45).length,meilleurCoup:h?{home:h.home,away:h.away,points:Math.round(100*(1-h.p))}:null}}[e,f]=g.then?(await g)():g,a.s(["eloTrend",0,j,"headToHead",0,h,"myWeek",0,l,"recentForm",0,i,"weeklyRace",0,k]),c()}catch(a){c(a)}},!1)];
+  `)).rows.map((a,b)=>({rank:b+1,userId:a.user_id,name:a.name,avatar:a.avatar,points:Number(a.points),pending:Number(a.pending)}))}[e,f]=g.then?(await g)():g,a.s(["eloTrend",0,j,"headToHead",0,h,"recentForm",0,i,"weeklyRace",0,k]),c()}catch(a){c(a)}},!1)];
 
 //# sourceMappingURL=apps_web_src_lib_09o02sk._.js.map
