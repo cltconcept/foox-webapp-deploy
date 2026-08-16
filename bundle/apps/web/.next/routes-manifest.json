@@ -108,6 +108,12 @@
       "namedRegex": "^/analyses(?:/)?$"
     },
     {
+      "page": "/apercu-bandeau",
+      "regex": "^/apercu\\-bandeau(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apercu\\-bandeau(?:/)?$"
+    },
+    {
       "page": "/api/invite/accept",
       "regex": "^/api/invite/accept(?:/)?$",
       "routeKeys": {},
