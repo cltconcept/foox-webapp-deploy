@@ -27,6 +27,7 @@
   "/api/v1/picks/route": "/api/v1/picks",
   "/api/v1/theme/route": "/api/v1/theme",
   "/api/v1/track-record/route": "/api/v1/track-record",
+  "/bienvenue/page": "/bienvenue",
   "/offline/page": "/offline",
   "/page": "/"
 }

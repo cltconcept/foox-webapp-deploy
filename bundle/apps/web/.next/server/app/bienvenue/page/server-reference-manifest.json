@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40d60680937a0c78f3b1545660eb8e4d79ba5e0895": {
+      "workers": {
+        "app/bienvenue/page": {
+          "moduleId": 85243,
+          "async": true,
+          "codeHash": null
+        }
+      },
+      "exportedName": "terminerOnboarding",
+      "filename": "apps/web/src/app/bienvenue/actions.ts"
+    }
+  },
+  "edge": {}
+}

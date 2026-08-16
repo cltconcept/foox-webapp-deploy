@@ -192,6 +192,12 @@
       "namedRegex": "^/aujourdhui(?:/)?$"
     },
     {
+      "page": "/bienvenue",
+      "regex": "^/bienvenue(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bienvenue(?:/)?$"
+    },
+    {
       "page": "/ligues",
       "regex": "^/ligues(?:/)?$",
       "routeKeys": {},
