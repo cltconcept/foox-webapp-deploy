@@ -1,7 +1,9 @@
 {
   "version": 1,
   "config": {
-    "env": {},
+    "env": {
+      "BUILD_COMMIT_DATE": "2026-08-16"
+    },
     "webpack": null,
     "typescript": {
       "ignoreBuildErrors": false
