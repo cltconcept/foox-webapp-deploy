@@ -2,6 +2,7 @@
   "/(app)/analyses/[id]/page": "/analyses/[id]",
   "/(app)/analyses/page": "/analyses",
   "/(app)/aujourdhui/page": "/aujourdhui",
+  "/(app)/comprendre/page": "/comprendre",
   "/(app)/ligues/page": "/ligues",
   "/(app)/ligues/rejoindre/[code]/page": "/ligues/rejoindre/[code]",
   "/(app)/pronos/page": "/pronos",

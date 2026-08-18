@@ -198,6 +198,12 @@
       "namedRegex": "^/bienvenue(?:/)?$"
     },
     {
+      "page": "/comprendre",
+      "regex": "^/comprendre(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/comprendre(?:/)?$"
+    },
+    {
       "page": "/ligues",
       "regex": "^/ligues(?:/)?$",
       "routeKeys": {},

@@ -2,6 +2,7 @@
   "/(app)/analyses/[id]/page": "app/(app)/analyses/[id]/page.js",
   "/(app)/analyses/page": "app/(app)/analyses/page.js",
   "/(app)/aujourdhui/page": "app/(app)/aujourdhui/page.js",
+  "/(app)/comprendre/page": "app/(app)/comprendre/page.js",
   "/(app)/ligues/page": "app/(app)/ligues/page.js",
   "/(app)/ligues/rejoindre/[code]/page": "app/(app)/ligues/rejoindre/[code]/page.js",
   "/(app)/pronos/page": "app/(app)/pronos/page.js",
