@@ -50,14 +50,6 @@
       "namedRegex": "^/api/auth/(?<nxtPall>.+?)(?:/)?$"
     },
     {
-      "page": "/api/v1/combos/[id]",
-      "regex": "^/api/v1/combos/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPid": "nxtPid"
-      },
-      "namedRegex": "^/api/v1/combos/(?<nxtPid>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/api/v1/fixtures/[id]",
       "regex": "^/api/v1/fixtures/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -130,12 +122,6 @@
       "regex": "^/api/v1/avatar(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/v1/avatar(?:/)?$"
-    },
-    {
-      "page": "/api/v1/combos",
-      "regex": "^/api/v1/combos(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/v1/combos(?:/)?$"
     },
     {
       "page": "/api/v1/events",

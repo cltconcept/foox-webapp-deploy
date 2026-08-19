@@ -2,7 +2,7 @@
   "version": 1,
   "config": {
     "env": {
-      "BUILD_COMMIT_DATE": "2026-08-18"
+      "BUILD_COMMIT_DATE": "2026-08-19"
     },
     "webpack": null,
     "typescript": {
@@ -109,6 +109,10 @@
       }
     },
     "outputFileTracingRoot": "C:\\Dev\\Ligueuh",
+    "allowedDevOrigins": [
+      "127.0.0.1",
+      "localhost"
+    ],
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {

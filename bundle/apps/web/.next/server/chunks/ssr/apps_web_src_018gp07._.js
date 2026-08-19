@@ -39,11 +39,10 @@ module.exports=[20614,a=>{"use strict";a.s(["Explainer",()=>b]);let b=(0,a.i(325
     ORDER BY valid_from DESC
     LIMIT 12
   `)).rows.map(a=>({rating:Number(a.rating),from:new Date(a.valid_from)})).reverse()}async function k(){let a=(0,e.currentIsoWeek)();return(await f.db.execute(d.sql`
-    -- Même barème que le classement général : solo à l unité, combo en tout
-    -- ou rien avec bonus linéaire. « En jeu » = ce qui n est pas encore joué,
-    -- bonus compris pour les combos encore vivants.
+    -- Même barème que le classement général. « En jeu » = ce qui n est pas
+    -- encore joué. (Les combos ont été supprimés le 2026-08-19.)
     WITH juge AS (
-      SELECT p.user_id, p.combo_id, p.p_at_pick,
+      SELECT p.user_id, p.p_at_pick,
              (r.payload IS NOT NULL) AS regle,
              (r.payload IS NOT NULL AND p.outcome::text = CASE
                 WHEN (r.payload->>'full_time_home_goals')::int > (r.payload->>'full_time_away_goals')::int THEN 'home'
@@ -62,30 +61,11 @@ module.exports=[20614,a=>{"use strict";a.s(["Explainer",()=>b]);let b=(0,a.i(325
       SELECT user_id,
              sum(CASE WHEN gagne THEN round(100 * (1 - p_at_pick)) ELSE 0 END)::int AS points,
              sum(CASE WHEN NOT regle THEN round(100 * (1 - p_at_pick)) ELSE 0 END)::int AS pending
-      FROM juge WHERE combo_id IS NULL GROUP BY user_id
-    ),
-    combo AS (
-      SELECT user_id, combo_id, count(*) AS n,
-             bool_and(gagne) AS tout_gagne, bool_and(regle) AS tout_regle,
-             sum(round(100 * (1 - p_at_pick))) AS base
-      FROM juge WHERE combo_id IS NOT NULL GROUP BY user_id, combo_id
-    ),
-    combos_joueur AS (
-      SELECT user_id,
-             sum(CASE WHEN tout_regle AND tout_gagne
-                      THEN round(base * (1 + 0.25 * (least(n, 5) - 1))) ELSE 0 END)::int AS points,
-             -- un combo encore vivant mais pas fini reste « en jeu » entier
-             sum(CASE WHEN NOT tout_regle AND tout_gagne
-                      THEN round(base * (1 + 0.25 * (least(n, 5) - 1))) ELSE 0 END)::int AS pending
-      FROM combo GROUP BY user_id
+      FROM juge GROUP BY user_id
     )
-    SELECT u.id AS user_id, u.name, u.avatar,
-           (coalesce(s.points, 0) + coalesce(c.points, 0))::int AS points,
-           (coalesce(s.pending, 0) + coalesce(c.pending, 0))::int AS pending
+    SELECT u.id AS user_id, u.name, u.avatar, s.points, s.pending
     FROM auth_user u
-    LEFT JOIN solo s ON s.user_id = u.id
-    LEFT JOIN combos_joueur c ON c.user_id = u.id
-    WHERE s.user_id IS NOT NULL OR c.user_id IS NOT NULL
+    JOIN solo s ON s.user_id = u.id
     ORDER BY points DESC, pending DESC, u.name
     LIMIT 30
   `)).rows.map((a,b)=>({rank:b+1,userId:a.user_id,name:a.name,avatar:a.avatar,points:Number(a.points),pending:Number(a.pending)}))}[e,f]=g.then?(await g)():g,a.s(["eloTrend",0,j,"headToHead",0,h,"recentForm",0,i,"weeklyRace",0,k]),c()}catch(a){c(a)}},!1)];
