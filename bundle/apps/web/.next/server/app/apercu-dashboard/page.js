@@ -1,6 +1,6 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/apercu-dashboard/page.js")
-R.c("server/chunks/ssr/_1owuhdd._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__1afrt92._.js")
+R.c("server/chunks/ssr/_19tf-eu._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0zp7q_x._.js")
 R.c("server/chunks/ssr/1jh5_next_dist_1f7duwt._.js")
 R.c("server/chunks/ssr/1jh5_next_dist_1987mo6._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__028se2v._.js")
