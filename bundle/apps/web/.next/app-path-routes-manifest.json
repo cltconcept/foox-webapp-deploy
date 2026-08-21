@@ -15,6 +15,7 @@
   "/_not-found/page": "/_not-found",
   "/apercu-bandeau/page": "/apercu-bandeau",
   "/apercu-dashboard/page": "/apercu-dashboard",
+  "/apercu-pronos/page": "/apercu-pronos",
   "/api/auth/[...all]/route": "/api/auth/[...all]",
   "/api/invite/accept/route": "/api/invite/accept",
   "/api/v1/avatar/route": "/api/v1/avatar",

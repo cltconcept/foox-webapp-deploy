@@ -118,6 +118,12 @@
       "namedRegex": "^/apercu\\-dashboard(?:/)?$"
     },
     {
+      "page": "/apercu-pronos",
+      "regex": "^/apercu\\-pronos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apercu\\-pronos(?:/)?$"
+    },
+    {
       "page": "/api/invite/accept",
       "regex": "^/api/invite/accept(?:/)?$",
       "routeKeys": {},
