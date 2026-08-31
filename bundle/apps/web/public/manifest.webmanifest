@@ -3,7 +3,7 @@
   "short_name": "Foox",
   "description": "Probabilités calibrées sur le football, jeu de pronostics gratuit et ligues entre amis. Outil d'analyse statistique — aucune mise, aucun gain promis.",
   "id": "/",
-  "start_url": "/aujourdhui",
+  "start_url": "/lancement",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",

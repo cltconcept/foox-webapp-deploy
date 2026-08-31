@@ -30,6 +30,7 @@
   "/api/v1/theme/route": "/api/v1/theme",
   "/api/v1/track-record/route": "/api/v1/track-record",
   "/bienvenue/page": "/bienvenue",
+  "/lancement/page": "/lancement",
   "/offline/page": "/offline",
   "/page": "/"
 }

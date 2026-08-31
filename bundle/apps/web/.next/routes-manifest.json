@@ -208,6 +208,12 @@
       "namedRegex": "^/comprendre(?:/)?$"
     },
     {
+      "page": "/lancement",
+      "regex": "^/lancement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/lancement(?:/)?$"
+    },
+    {
       "page": "/ligues",
       "regex": "^/ligues(?:/)?$",
       "routeKeys": {},
