@@ -9,10 +9,10 @@
     }
   },
   "/_not-found": {
-    "hints": 64,
+    "hints": 0,
     "slots": {
       "children": {
-        "hints": 96,
+        "hints": 64,
         "slots": {
           "children": {
             "hints": 160,
@@ -23,10 +23,10 @@
     }
   },
   "/login": {
-    "hints": 64,
+    "hints": 0,
     "slots": {
       "children": {
-        "hints": 96,
+        "hints": 64,
         "slots": {
           "children": {
             "hints": 96,
@@ -42,10 +42,10 @@
     }
   },
   "/apercu-bandeau": {
-    "hints": 64,
+    "hints": 0,
     "slots": {
       "children": {
-        "hints": 96,
+        "hints": 64,
         "slots": {
           "children": {
             "hints": 160,
@@ -56,10 +56,10 @@
     }
   },
   "/apercu-dashboard": {
-    "hints": 64,
+    "hints": 0,
     "slots": {
       "children": {
-        "hints": 96,
+        "hints": 64,
         "slots": {
           "children": {
             "hints": 160,
@@ -70,10 +70,10 @@
     }
   },
   "/apercu-pronos": {
-    "hints": 64,
+    "hints": 0,
     "slots": {
       "children": {
-        "hints": 96,
+        "hints": 64,
         "slots": {
           "children": {
             "hints": 160,
@@ -84,10 +84,10 @@
     }
   },
   "/apercu-splash": {
-    "hints": 64,
+    "hints": 0,
     "slots": {
       "children": {
-        "hints": 96,
+        "hints": 64,
         "slots": {
           "children": {
             "hints": 160,
@@ -98,10 +98,10 @@
     }
   },
   "/offline": {
-    "hints": 64,
+    "hints": 0,
     "slots": {
       "children": {
-        "hints": 96,
+        "hints": 64,
         "slots": {
           "children": {
             "hints": 160,
