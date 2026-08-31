@@ -34,7 +34,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 16145,
+      "htmlSize": 21518,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -62,7 +62,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 11310,
+      "htmlSize": 11536,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -90,7 +90,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 11314,
+      "htmlSize": 11540,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -118,7 +118,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 11308,
+      "htmlSize": 11534,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -142,11 +142,39 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/apercu-splash": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 11413,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/apercu-splash",
+      "dataRoute": "/apercu-splash.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/login": {
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 17782,
+      "htmlSize": 23206,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -174,7 +202,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 15094,
+      "htmlSize": 20730,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -202,8 +230,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "7fa34c4b5ee9fe80a81cdb7ef8ecd36c",
-    "previewModeSigningKey": "6e7d37a21d047f8f4d1b1bb2a58f08bdf2ca178299887c47ce4721f55eea9a05",
-    "previewModeEncryptionKey": "0ffb4e12404e000d0d854b91a0fdb36777f7d630b92c2657a4ea03f116c089af"
+    "previewModeId": "8d0de9b6a2b9c1852cf472fa004cbe60",
+    "previewModeSigningKey": "9232f21c20d869fc01a22acaa53d8e905debeadf6960b41b075fc43a007daa3d",
+    "previewModeEncryptionKey": "2401fa3d37686f168f76e01cf850a8b8c0a0cc90c99473a80f5f42582bbd1ec1"
   }
 }

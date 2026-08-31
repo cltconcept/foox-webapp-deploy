@@ -124,6 +124,12 @@
       "namedRegex": "^/apercu\\-pronos(?:/)?$"
     },
     {
+      "page": "/apercu-splash",
+      "regex": "^/apercu\\-splash(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apercu\\-splash(?:/)?$"
+    },
+    {
       "page": "/api/invite/accept",
       "regex": "^/api/invite/accept(?:/)?$",
       "routeKeys": {},
