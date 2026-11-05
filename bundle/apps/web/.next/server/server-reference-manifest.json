@@ -1,6 +1,6 @@
 {
   "node": {
-    "4016ee5f9a829088927095ef5235fb34fe536d53ca": {
+    "40f21b9a9edfbe068fed03ea4cb97aa1bcfbcf893e": {
       "workers": {
         "app/(app)/analyses/page": {
           "moduleId": 59161,
@@ -11,7 +11,7 @@
       "filename": "apps/web/src/app/(app)/analyses/actions.ts",
       "exportedName": "basculerFavori"
     },
-    "40e7a3843b2557540be5ce7aec8519cd70a0b7181d": {
+    "40407649e6642cac0699ffd3c6fe685e3875e5ca69": {
       "workers": {
         "app/bienvenue/page": {
           "moduleId": 85243,
@@ -24,5 +24,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "9wULBCL4s+ZAH2GgJk4yHQ38wTafJCrCyTNDp+EaKNY="
+  "encryptionKey": "p5QGcpbRgoPhufbJcFJNBowfMgwSI9w4uDpt5JAXku0="
 }
