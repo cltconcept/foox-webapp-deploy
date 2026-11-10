@@ -7,16 +7,15 @@
   "lowPriorityFiles": [],
   "rootMainFiles": [
     "static/chunks/0g3w6-9t084qv.js",
-    "static/chunks/23f6979op452b.js",
+    "static/chunks/0pspi0e6kok-9.js",
     "static/chunks/0tzdokxjr9dkc.js",
-    "static/chunks/1kcee2oewnbrh.js",
     "static/chunks/turbopack-077hmtqrhcoji.js"
   ],
   "pages": {},
   "ampFirstPages": [],
   "rootMainFilesTree": {},
   "pagesChunkGroupBootstrapParams": {
-    "/apercu-dashboard/page": {"otherChunks":["static/chunks/0g3w6-9t084qv.js","static/chunks/23f6979op452b.js","static/chunks/0tzdokxjr9dkc.js","static/chunks/1kcee2oewnbrh.js"],"runtimeModuleIds":[98482]}
+    "/apercu-dashboard/page": {"otherChunks":["static/chunks/0g3w6-9t084qv.js","static/chunks/0pspi0e6kok-9.js","static/chunks/0tzdokxjr9dkc.js"],"runtimeModuleIds":[98482]}
   },
   "chunkLoadingGlobal": "TURBOPACK"
 }

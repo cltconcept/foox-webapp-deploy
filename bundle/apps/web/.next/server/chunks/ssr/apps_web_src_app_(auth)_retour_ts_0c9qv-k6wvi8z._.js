@@ -1,0 +1,3 @@
+module.exports=[36380,a=>{"use strict";let b="https://foox.invalid";function c(a){let c;if(!a||!a.startsWith("/")||a.startsWith("//")||/[\\\u0000-\u001f\u007f]/.test(a))return null;try{c=new URL(a,b)}catch{return null}return c.origin!==b?null:`${c.pathname}${c.search}${c.hash}`}a.s(["i",0,c,"s",0,function(a){let b=c(a);return b?`/login?next=${encodeURIComponent(b)}`:"/login"}])}];
+
+//# sourceMappingURL=apps_web_src_app_%28auth%29_retour_ts_0c9qv-k6wvi8z._.js.map

@@ -1,0 +1,3 @@
+module.exports=[4802,a=>{"use strict";let b={ENG:{flag:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",nom:"Angleterre"},SCO:{flag:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",nom:"Écosse"},FRA:{flag:"🇫🇷",nom:"France"},BEL:{flag:"🇧🇪",nom:"Belgique"},ESP:{flag:"🇪🇸",nom:"Espagne"},ITA:{flag:"🇮🇹",nom:"Italie"},DEU:{flag:"🇩🇪",nom:"Allemagne"},NLD:{flag:"🇳🇱",nom:"Pays-Bas"},PRT:{flag:"🇵🇹",nom:"Portugal"},TUR:{flag:"🇹🇷",nom:"Turquie"},EUR:{flag:"🇪🇺",nom:"Europe"}};a.s(["f",0,function(a){return b[a]??{flag:"🏳️",nom:a}}])}];
+
+//# sourceMappingURL=apps_web_src_lib_pays_ts_17g9y-9d4o74q._.js.map

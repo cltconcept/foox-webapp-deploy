@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/0m2pgt0qk4fz9.css","style"]
+:HL["/_next/static/chunks/2qrr0dflqtcb4.css","style"]
 :HL["/assets/mascotte/analyse.webp","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":"login","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"(auth)","h":96,"c":"$Q2"}]]
-0:{"b":"_F8dkPEk3iLR-f3cyL3Bj","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"k0Rl6TDexrfrjslTSwYl0","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

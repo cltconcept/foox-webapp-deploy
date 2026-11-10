@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/v1/leagues/route.js")
-R.c("server/chunks/[root-of-the-server]__0xymd2ub3yskr._.js")
-R.c("server/chunks/07y5_next_0x8mqpqfyvams._.js")
+R.c("server/chunks/[root-of-the-server]__0n7zgycv1c9y7._.js")
+R.c("server/chunks/_1e1x-qljrjm1m._.js")
 R.c("server/chunks/[root-of-the-server]__1oh73az_fl_t4._.js")
 R.c("server/chunks/07y5_next_dist_15u2h7bs8xswo._.js")
 R.c("server/chunks/node_modules__pnpm_0ncdiktloowol._.js")
