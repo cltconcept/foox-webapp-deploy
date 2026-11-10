@@ -9,6 +9,7 @@
     "start": "next start --port 3300",
     "typecheck": "tsc --noEmit",
     "invite": "tsx scripts/invite.ts",
+    "reset-two-factor": "tsx scripts/reset-two-factor.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
