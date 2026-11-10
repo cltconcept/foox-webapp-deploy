@@ -3,7 +3,7 @@
   "config": {
     "env": {
       "BUILD_COMMIT_DATE": "2026-11-10",
-      "BUILD_VERSION": "5333229-1eaf31e4d8"
+      "BUILD_VERSION": "b545423-1eaf31e4d8"
     },
     "webpack": null,
     "typescript": {
