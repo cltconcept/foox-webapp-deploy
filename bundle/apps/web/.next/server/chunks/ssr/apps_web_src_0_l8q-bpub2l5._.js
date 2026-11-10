@@ -1,0 +1,3 @@
+module.exports=[43954,a=>{"use strict";var b=a.i(58244);a.s(["f",0,function({nom:a,className:c="w-4 h-4"}){let d=`url(/icons/foox/${a}.png)`;return(0,b.jsx)("span",{"aria-hidden":"true",className:`inline-block shrink-0 bg-renard ${c}`,style:{maskImage:d,WebkitMaskImage:d,maskSize:"contain",WebkitMaskSize:"contain",maskRepeat:"no-repeat",WebkitMaskRepeat:"no-repeat",maskPosition:"center",WebkitMaskPosition:"center"}})}])},23337,a=>{"use strict";a.s(["f",0,function(a){}])}];
+
+//# sourceMappingURL=apps_web_src_0_l8q-bpub2l5._.js.map

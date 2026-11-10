@@ -15,5 +15,58 @@
     { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pronos",
+      "short_name": "Pronos",
+      "description": "Les affiches à pronostiquer",
+      "url": "/pronos",
+      "icons": [{ "src": "/icons/raccourci-pronos.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Analyses",
+      "short_name": "Analyses",
+      "description": "Les chances de chaque équipe, championnat par championnat",
+      "url": "/analyses",
+      "icons": [{ "src": "/icons/raccourci-analyses.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Classement",
+      "short_name": "Classement",
+      "description": "Où tu en es face aux autres",
+      "url": "/ligues",
+      "icons": [{ "src": "/icons/raccourci-classement.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/captures/analyses.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Les affiches du soir, toutes compétitions confondues"
+    },
+    {
+      "src": "/captures/fiche.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "La fiche d'un match : les chances de chaque issue"
+    },
+    {
+      "src": "/captures/pronos.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Le jeu de pronostics, gratuit, sans mise"
+    },
+    {
+      "src": "/captures/accueil.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "L'accueil : l'affiche du jour et tes pronos"
+    }
   ]
 }

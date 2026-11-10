@@ -1,0 +1,3 @@
+module.exports=[59577,e=>e.a(async(t,n)=>{try{var a=e.i(68781),r=e.i(54136),i=t([a,r]);[a,r]=i.then?(await i)():i;let c=new Map;function s(e,t){return async(...n)=>{let a=`${e}-${JSON.stringify(n)}`,r=Date.now(),i=c.get(a);if(!i||i.expire<=r){let e=t(...n);i={expire:r+3e4,valeur:e},c.set(a,i);let s=i;e.catch(()=>{c.get(a)===s&&c.delete(a)})}return structuredClone(await i.valeur)}}let u=s("classement-saison-v1",async e=>(0,a.E)(void 0,e??void 0)),l=s("course-semaine-v1",async e=>(0,r.k)(e));e.s(["g",0,function(e){return u(e??null)},"q",0,function(e){return l(e)}]),n()}catch(e){n(e)}},!1)];
+
+//# sourceMappingURL=apps_web_src_lib_standings-cache_ts_0j1lm_rswriep._.js.map

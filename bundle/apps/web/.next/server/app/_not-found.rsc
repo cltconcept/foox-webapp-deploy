@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-4:"/_next/static/chunks/0w4i4qpto2-hj.js"
+4:"/_next/static/chunks/1at-0uz7458u4.js"
 5:I[77947,["$4"],"default"]
 6:I[64961,["$4"],"default"]
 9:"/_next/static/chunks/3qke1ak90hyn9.js"
@@ -12,12 +12,12 @@ f:I[62061,["$4"],"$e"]
 12:I[62061,["$4"],"$11"]
 14:"/_next/static/chunks/0jzd25jzm_57t.js"
 15:I[31823,["$4","$14"],"default"]
-:HL["/_next/static/chunks/2d835l5udm079.css","style"]
+:HL["/_next/static/chunks/0m2pgt0qk4fz9.css","style"]
 :HL["/assets/mascotte/analyse.webp","image"]
 7:X
 8:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","main",null,{"className":"flex-1 flex items-center justify-center px-6 py-12","children":["$","div",null,{"className":"max-w-md mx-auto text-center space-y-4 anim-rise","children":[["$","img",null,{"src":"/assets/mascotte/analyse.webp","alt":"","className":"w-36 mx-auto"}],["$","h1",null,{"className":"text-encre text-xl font-black","children":"Page introuvable"}],["$","p",null,{"className":"text-sm text-sourdine max-w-xs mx-auto leading-snug","children":"Le renard a cherché partout : cette page n'existe pas, ou plus."}],["$","div",null,{"className":"pt-2 max-w-xs mx-auto","children":["$","$La",null,{"href":"/","className":"btn-p text-center py-3.5","children":"Retour à l'accueil"}]}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/3qke1ak90hyn9.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],"p":false,"v":null}}]]
 3:[["children",{"s":"/_not-found","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$7"},"c":"$Q8"}]]
-0:{"P":null,"c":["","_not-found"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2d835l5udm079.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0w4i4qpto2-hj.js","async":true,"nonce":"$undefined"}]],"$L2"]}],"p":false,"v":null},"c":"$Q3"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$Lf",null,{"children":"$L10"}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$c",null,{"name":"Next.Metadata","children":"$L13"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2d835l5udm079.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"XjgdGphBHByA0E1ji2oJC"}
+0:{"P":null,"c":["","_not-found"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0m2pgt0qk4fz9.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1at-0uz7458u4.js","async":true,"nonce":"$undefined"}]],"$L2"]}],"p":false,"v":null},"c":"$Q3"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$Lf",null,{"children":"$L10"}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$c",null,{"name":"Next.Metadata","children":"$L13"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0m2pgt0qk4fz9.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"CiVzrPliu0E0TIHTuj0UF"}
 7:C
 10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#0b1220"}]]
 16:I[98351,["$4"],"IconMark"]
