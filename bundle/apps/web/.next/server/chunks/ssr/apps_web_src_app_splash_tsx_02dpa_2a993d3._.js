@@ -1,0 +1,3 @@
+module.exports=[56792,a=>{"use strict";let b=(0,a.i(25246).registerClientReference)(function(){throw Error("Attempted to call Splash() from the server but Splash is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/apps/web/src/app/splash.tsx","Splash");a.s(["Splash",0,b])},67977,a=>{"use strict";var b=a.i(56792);a.n(b)}];
+
+//# sourceMappingURL=apps_web_src_app_splash_tsx_02dpa_2a993d3._.js.map

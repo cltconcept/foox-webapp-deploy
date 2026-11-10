@@ -1,0 +1,3 @@
+module.exports=[80667,a=>{"use strict";var b=a.i(58244),c=a.i(67214);let d={principal:"btn-p",secondaire:"btn-s"};function e(a,b){return b?`${d[a]} ${b}`:d[a]}a.s(["Y",0,function({variante:a="principal",...c}){return(0,b.jsx)("button",{...c,className:e(a,c.className)})},"g",0,function({variante:a="principal",...d}){return(0,b.jsx)(c.default,{...d,className:e(a,d.className)})},"Q",0,e])}];
+
+//# sourceMappingURL=apps_web_src_components_ui_bouton_tsx_0ub2ccvh8yvc8._.js.map

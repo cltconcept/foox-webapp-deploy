@@ -1,4 +1,14 @@
 {
   "version": 1,
-  "functions": {}
+  "functions": {
+    "/_middleware": {
+      "runtime": "nodejs",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api\\/|healthz|_next\\/|assets\\/|icons\\/|sw\\.js|manifest\\.webmanifest|.*\\.(?:png|webp|svg|ico|jpg|json|txt)$).*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+          "originalSource": "/((?!api/|healthz|_next/|assets/|icons/|sw\\.js|manifest\\.webmanifest|.*\\.(?:png|webp|svg|ico|jpg|json|txt)$).*)"
+        }
+      ]
+    }
+  }
 }

@@ -7,14 +7,13 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
-    "/_index",
     "/lancement/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 0,
+    "hints": 64,
     "slots": {
       "children": {
-        "hints": 64,
+        "hints": 96,
         "slots": {
           "children": {
             "hints": 160,
@@ -23,5 +22,13 @@
         }
       }
     }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/0987e19852208f9c64c172a7486326b55b41babbdb8e65c24a136ef81c8405cf/$/lancement",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/lancement/page"
+    },
+    "isFallback": false
   }
 }

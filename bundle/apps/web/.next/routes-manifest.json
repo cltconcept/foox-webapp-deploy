@@ -21,6 +21,34 @@
         {
           "key": "X-Robots-Tag",
           "value": "noindex, nofollow"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self'; base-uri 'self'; object-src 'none'; form-action 'self'"
+        },
+        {
+          "key": "Content-Security-Policy-Report-Only",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'"
         }
       ],
       "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
@@ -56,6 +84,30 @@
         "nxtPid": "nxtPid"
       },
       "namedRegex": "^/api/v1/fixtures/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/v1/fixtures/[id]/context",
+      "regex": "^/api/v1/fixtures/([^/]+?)/context(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/v1/fixtures/(?<nxtPid>[^/]+?)/context(?:/)?$"
+    },
+    {
+      "page": "/api/v1/leagues/[id]",
+      "regex": "^/api/v1/leagues/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/v1/leagues/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/v1/leagues/[id]/leave",
+      "regex": "^/api/v1/leagues/([^/]+?)/leave(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/v1/leagues/(?<nxtPid>[^/]+?)/leave(?:/)?$"
     },
     {
       "page": "/invite/[token]",
@@ -142,10 +194,22 @@
       "namedRegex": "^/api/v1/avatar(?:/)?$"
     },
     {
+      "page": "/api/v1/challenges",
+      "regex": "^/api/v1/challenges(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/challenges(?:/)?$"
+    },
+    {
       "page": "/api/v1/events",
       "regex": "^/api/v1/events(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/v1/events(?:/)?$"
+    },
+    {
+      "page": "/api/v1/favorites",
+      "regex": "^/api/v1/favorites(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/favorites(?:/)?$"
     },
     {
       "page": "/api/v1/fixtures",
@@ -154,10 +218,22 @@
       "namedRegex": "^/api/v1/fixtures(?:/)?$"
     },
     {
+      "page": "/api/v1/fixtures/past",
+      "regex": "^/api/v1/fixtures/past(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/fixtures/past(?:/)?$"
+    },
+    {
       "page": "/api/v1/health",
       "regex": "^/api/v1/health(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/v1/health(?:/)?$"
+    },
+    {
+      "page": "/api/v1/home",
+      "regex": "^/api/v1/home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/home(?:/)?$"
     },
     {
       "page": "/api/v1/leagues",
@@ -172,16 +248,46 @@
       "namedRegex": "^/api/v1/leagues/join(?:/)?$"
     },
     {
+      "page": "/api/v1/me",
+      "regex": "^/api/v1/me(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/me(?:/)?$"
+    },
+    {
+      "page": "/api/v1/me/export",
+      "regex": "^/api/v1/me/export(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/me/export(?:/)?$"
+    },
+    {
+      "page": "/api/v1/onboarding",
+      "regex": "^/api/v1/onboarding(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/onboarding(?:/)?$"
+    },
+    {
       "page": "/api/v1/picks",
       "regex": "^/api/v1/picks(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/v1/picks(?:/)?$"
     },
     {
-      "page": "/api/v1/theme",
-      "regex": "^/api/v1/theme(?:/)?$",
+      "page": "/api/v1/picks/todo",
+      "regex": "^/api/v1/picks/todo(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/v1/theme(?:/)?$"
+      "namedRegex": "^/api/v1/picks/todo(?:/)?$"
+    },
+    {
+      "page": "/api/v1/standings",
+      "regex": "^/api/v1/standings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/standings(?:/)?$"
+    },
+    {
+      "page": "/api/v1/standings/week",
+      "regex": "^/api/v1/standings/week(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/v1/standings/week(?:/)?$"
     },
     {
       "page": "/api/v1/track-record",
@@ -206,6 +312,12 @@
       "regex": "^/comprendre(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/comprendre(?:/)?$"
+    },
+    {
+      "page": "/healthz",
+      "regex": "^/healthz(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/healthz(?:/)?$"
     },
     {
       "page": "/lancement",

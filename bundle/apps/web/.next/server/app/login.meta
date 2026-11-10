@@ -7,14 +7,13 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
-    "/_index",
     "/!KGF1dGgp/login/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 0,
+    "hints": 64,
     "slots": {
       "children": {
-        "hints": 64,
+        "hints": 96,
         "slots": {
           "children": {
             "hints": 96,
@@ -28,5 +27,13 @@
         }
       }
     }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/feecd52744a2dc9b7b9301134f104ac56f1b6aa1a997d169ee6714db8453ee08/$/login",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(auth)/login/page"
+    },
+    "isFallback": false
   }
 }

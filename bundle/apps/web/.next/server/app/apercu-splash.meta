@@ -8,14 +8,13 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
-    "/_index",
     "/apercu-splash/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 0,
+    "hints": 64,
     "slots": {
       "children": {
-        "hints": 64,
+        "hints": 96,
         "slots": {
           "children": {
             "hints": 160,
@@ -24,5 +23,13 @@
         }
       }
     }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/e24fc18d6d8c03a0966134e91ae722c5802e8156ed3c3480019916e988e3739b/$/apercu-splash",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/apercu-splash/page"
+    },
+    "isFallback": false
   }
 }

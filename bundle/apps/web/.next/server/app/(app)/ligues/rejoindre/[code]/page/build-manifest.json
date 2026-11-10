@@ -6,16 +6,17 @@
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/1z-2pxap7ni99.js",
-    "static/chunks/2u9yn52_qv3q-.js",
-    "static/chunks/1m6i8l_vf7aal.js",
-    "static/chunks/008uvnd4kukkr.js",
-    "static/chunks/33w8a2aviw57j.js",
-    "static/chunks/turbopack-0ol6osrx07jmr.js"
+    "static/chunks/0g3w6-9t084qv.js",
+    "static/chunks/23f6979op452b.js",
+    "static/chunks/0tzdokxjr9dkc.js",
+    "static/chunks/1kcee2oewnbrh.js",
+    "static/chunks/turbopack-077hmtqrhcoji.js"
   ],
   "pages": {},
   "ampFirstPages": [],
   "rootMainFilesTree": {},
-  "pagesChunkGroupBootstrapParams": {},
+  "pagesChunkGroupBootstrapParams": {
+    "/(app)/ligues/rejoindre/[code]/page": {"otherChunks":["static/chunks/0g3w6-9t084qv.js","static/chunks/23f6979op452b.js","static/chunks/0tzdokxjr9dkc.js","static/chunks/1kcee2oewnbrh.js"],"runtimeModuleIds":[98482]}
+  },
   "chunkLoadingGlobal": "TURBOPACK"
 }

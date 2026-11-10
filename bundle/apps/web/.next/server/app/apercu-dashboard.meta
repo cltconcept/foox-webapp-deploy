@@ -8,14 +8,13 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
-    "/_index",
     "/apercu-dashboard/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 0,
+    "hints": 64,
     "slots": {
       "children": {
-        "hints": 64,
+        "hints": 96,
         "slots": {
           "children": {
             "hints": 160,
@@ -24,5 +23,13 @@
         }
       }
     }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/b9f903448d5ec62421029895643c6aa25e1a04076b05e10229fdc75e10e6f9ac/$/apercu-dashboard",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/apercu-dashboard/page"
+    },
+    "isFallback": false
   }
 }

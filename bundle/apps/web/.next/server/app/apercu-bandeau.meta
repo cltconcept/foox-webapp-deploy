@@ -8,14 +8,13 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
-    "/_index",
     "/apercu-bandeau/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 0,
+    "hints": 64,
     "slots": {
       "children": {
-        "hints": 64,
+        "hints": 96,
         "slots": {
           "children": {
             "hints": 160,
@@ -24,5 +23,13 @@
         }
       }
     }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/18efb7b85dbfa0f187ceacb7072b9c40ed2852971ed314cb1146d58055f54a8f/$/apercu-bandeau",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/apercu-bandeau/page"
+    },
+    "isFallback": false
   }
 }

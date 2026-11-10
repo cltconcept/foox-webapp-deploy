@@ -8,14 +8,13 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
-    "/_index",
     "/apercu-pronos/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 0,
+    "hints": 64,
     "slots": {
       "children": {
-        "hints": 64,
+        "hints": 96,
         "slots": {
           "children": {
             "hints": 160,
@@ -24,5 +23,13 @@
         }
       }
     }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/a99f9947250cd8a5a7aef283bc86371cffc90e61f756056c93aad034ac88935d/$/apercu-pronos",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/apercu-pronos/page"
+    },
+    "isFallback": false
   }
 }

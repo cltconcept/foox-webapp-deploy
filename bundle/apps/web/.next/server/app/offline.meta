@@ -7,14 +7,13 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
-    "/_index",
     "/offline/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 0,
+    "hints": 64,
     "slots": {
       "children": {
-        "hints": 64,
+        "hints": 96,
         "slots": {
           "children": {
             "hints": 160,
@@ -23,5 +22,13 @@
         }
       }
     }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/ec47f4de984fe544c98cbb5377f81d823005b94cf2cd4779463f573d9d258f7a/$/offline",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/offline/page"
+    },
+    "isFallback": false
   }
 }

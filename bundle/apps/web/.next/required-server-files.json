@@ -2,7 +2,8 @@
   "version": 1,
   "config": {
     "env": {
-      "BUILD_COMMIT_DATE": "2026-11-05"
+      "BUILD_COMMIT_DATE": "2026-11-10",
+      "BUILD_VERSION": "dac54f6-72e0cc68e4"
     },
     "webpack": null,
     "typescript": {
@@ -23,7 +24,7 @@
       "js"
     ],
     "instrumentationClientInject": [],
-    "poweredByHeader": true,
+    "poweredByHeader": false,
     "compress": true,
     "images": {
       "deviceSizes": [
@@ -70,7 +71,7 @@
       "qualities": [
         75
       ],
-      "unoptimized": false,
+      "unoptimized": true,
       "customCacheHandler": false
     },
     "devIndicators": {
@@ -153,23 +154,29 @@
       }
     },
     "cacheHandlers": {},
+    "deprecated": {},
     "experimental": {
-      "appNewScrollHandler": true,
+      "agentUpgrade": "security",
+      "agentFeedback": false,
       "coldCacheBadge": false,
+      "collapseAdapterRoutes": true,
       "devValidationWorker": true,
       "useSkewCookie": false,
       "cssChunking": true,
       "multiZoneDraftMode": false,
       "appNavFailHandling": false,
+      "parallelRouteMetadata": false,
       "prerenderEarlyExit": true,
       "serverMinification": true,
       "linkNoTouchStart": false,
       "caseSensitiveRoutes": false,
       "cachedNavigations": false,
       "dynamicOnHover": false,
+      "reactBrowserBailout": true,
       "useOffline": false,
       "varyParams": true,
       "optimisticRouting": true,
+      "concurrentRouterQueue": false,
       "instrumentationClientRouterTransitionEvents": false,
       "prefetchInlining": {
         "maxSize": 2048,
@@ -189,6 +196,7 @@
       "imgOptTimeoutInSeconds": 7,
       "imgOptMaxInputPixels": 268402689,
       "imgOptSequentialRead": null,
+      "imgOptMozjpeg": true,
       "isrFlushToDisk": true,
       "workerThreads": false,
       "optimizeCss": false,
@@ -229,16 +237,23 @@
       "gestureTransition": false,
       "inlineCss": false,
       "useCache": false,
+      "useCacheStaticRootParamTracking": false,
       "globalNotFound": false,
+      "explicitParallelRouteChildren": true,
+      "strictRouteMatching": true,
       "browserDebugInfoInTerminal": "warn",
       "lockDistDir": true,
+      "disableResumeDataCacheCompression": false,
       "proxyClientMaxBodySize": 10485760,
       "hideLogsAfterAbort": false,
       "mcpServer": true,
+      "exposeRuntimeErrorsToHMR": false,
       "turbopackFileSystemCacheForDev": true,
       "turbopackFileSystemCacheForBuild": true,
+      "turbopackStaleOutputMaxAge": 604800000,
       "turbopackInferModuleSideEffects": true,
       "turbopackPluginRuntimeStrategy": "childProcesses",
+      "turbopackSharedRuntime": true,
       "turbopackMemoryEvictionMode": "auto",
       "optimizePackageImports": [
         "lucide-react",
@@ -341,6 +356,7 @@
     ".next\\server\\pages-manifest.json",
     ".next\\build-manifest.json",
     ".next\\prerender-manifest.json",
+    ".next\\server\\preview-props.json",
     ".next\\server\\functions-config-manifest.json",
     ".next\\server\\middleware-manifest.json",
     ".next\\server\\middleware-build-manifest.js",
@@ -352,7 +368,8 @@
     ".next\\BUILD_ID",
     ".next\\server\\next-font-manifest.js",
     ".next\\server\\next-font-manifest.json",
-    ".next\\required-server-files.json"
+    ".next\\required-server-files.json",
+    ".next\\server\\instrumentation.js"
   ],
   "ignore": []
 }

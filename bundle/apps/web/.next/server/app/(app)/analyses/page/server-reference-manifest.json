@@ -1,11 +1,10 @@
 {
   "node": {
-    "40f21b9a9edfbe068fed03ea4cb97aa1bcfbcf893e": {
+    "409e4c7eb22024b074a6dd41e178d231add35bc4bc": {
       "workers": {
         "app/(app)/analyses/page": {
           "moduleId": 59161,
-          "async": true,
-          "codeHash": null
+          "async": true
         }
       },
       "exportedName": "basculerFavori",

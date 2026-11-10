@@ -1,11 +1,10 @@
 {
   "node": {
-    "40407649e6642cac0699ffd3c6fe685e3875e5ca69": {
+    "40aba708d42a5114968df467fedd0faf648a58e5ce": {
       "workers": {
         "app/bienvenue/page": {
           "moduleId": 85243,
-          "async": true,
-          "codeHash": null
+          "async": true
         }
       },
       "exportedName": "terminerOnboarding",
